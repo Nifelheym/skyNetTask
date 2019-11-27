@@ -61,6 +61,9 @@ export default {
         this.tarifs = response.data.tarifs
         console.log(this.tarifs)
       })
+      .catch((e) => {
+        console.log(e)
+      })
   }
 }
 </script>
